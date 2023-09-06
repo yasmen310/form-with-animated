@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn-SignUp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form signup">
+        <h2>SignUp</h2>
+        <div class="inputBox">
+          <input type="text" required="required" />
+          <i class="fa-regular fa-user"></i>
+          <span>Username</span>
+        </div>
+        <div class="inputBox">
+          <input type="email" required="required" />
+          <i class="fa-regular fa-envelope"></i>
+          <span>Email </span>
+        </div>
+        <div class="inputBox">
+          <input type="text" required="required" />
+          <i class="fa-regular fa-bookmark"></i>
+          <span>Track</span>
+        </div>
+        <div class="inputBox">
+          <input type="password" required="required" />
+          <i class="fa-solid fa-lock"></i>
+          <span>Create Password</span>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Create Account" />
+        </div>
+        <p>Already amember ? <a href="#" class="login">LogIn</a></p>
+      </div>
+
+      <div class="form signin">
+        <h2>Login</h2>
+        <div class="inputBox">
+          <input type="text" required="required" />
+          <i class="fa-regular fa-user"></i>
+          <span>UserName</span>
+        </div>
+        <div class="inputBox">
+          <input type="text" required="required" />
+          <i class="fa-solid fa-lock"></i>
+          <span>Password</span>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Login" />
+        </div>
+        <p>Not Registered ? <a href="#" class="create">Create an account</a></p>
+      </div>
+    </div>
+
+    <script src="form.js"></script>
+  </body>
+</html>
